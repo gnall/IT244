@@ -1,4 +1,4 @@
-# ITT 244 Integrative Programming Syllabus (Self-Learner/Reader Course)
+# IT 244 Integrative Programming Syllabus (Self-Learner/Reader Course)
 
 ## Course Overview
 The application of information technologies presents many situations where systems and applications, that were not initially designed to work together, need to do so.  This course introduces students to commonly used representations, languages, interfaces, models and practices pertinent to such integrative situations.  Students will gain experience using and developing software to accomplish integration.  The course also presents an overview of programming languages, presenting both a conceptual foundation and a survey of relevant scripting languages. - [catalog.scranton.edu](https://catalog.scranton.edu/preview_course_nopop.php?catoid=56&coid=73499)
