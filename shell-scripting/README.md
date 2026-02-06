@@ -45,9 +45,9 @@ To run this script:
 
 
 ## Lab/Assignments
-### Lab 1 - Setting up a Linux based Virtual Machine Locally
+### Lab 0 - Setting up a Linux based Virtual Machine Locally
 
-#### 1. Install VirtualBox
+#### 1. Installing VirtualBox & Launching a Virtual Machine
 
 - Go to the [VirtualBox Downloads page](https://www.virtualbox.org/wiki/Downloads).
 - Download the Windows installer.
