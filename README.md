@@ -30,9 +30,24 @@ The application of information technologies presents many situations where syste
 | Apr 2   | Easter Break Begins                |
 | Apr 7   | Classes Resume after Easter Break  |
 
-
 ## Assessment
-TBD
+
+| Grade Range      | Letter Grade |
+|------------------|-------------|
+| 90 – 100%        | A           |
+| 86 – <90%        | A-          |
+| 82 – <86%        | B+          |
+| 78 – <82%        | B           |
+| 74 – <78%        | B-          |
+| 70 – <74%        | C+          |
+| 66 – <70%        | C           |
+| 62 – <66%        | D+          |
+| 58 – <62%        | D           |
+| Less than 58%    | F           |
+
+Total: 100%
+
+
 
 ---
 

@@ -1,10 +1,10 @@
 # Introduction to Docker and Containerization
 
-- [Docker Quick Reference](docker-quick-ref.md)
-- [Docker in CI/CD](docker-ci-cd.md)
-- [Docker Security Best Practices](docker-security.md)
+- [Docker Quick Reference](quick-ref.md)
+- [Docker in CI/CD](ci-cd.md)
+- [Docker Security Best Practices](security.md)
 - [Docker Review Questions](review-questions.md)
-- [Docker Labs](labs.md)
+- [Docker Assignments](assignments.md)
 
 ## What is Docker?
 

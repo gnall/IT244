@@ -1,17 +1,23 @@
-# Student Labs
+# Student Assignments
 
-The following labs are designed to progressively build your Docker skills. Complete them in order for the best learning experience.
+The following Assignments are designed to progressively build your Docker skills. Complete them in order for the best learning experience.
+
+**Important Note:** The Assignments make the assumption you're using a Linux operating system, some commands may be different on alternative Operating Systems.
 
 ---
 
-## Lab 1: Installation and First Container
+## Assignment 1: Installation and First Container
+
+**Assignment:**
+- Copy and paste your terminal window output into a text file called `docker-1.txt`
 
 **Objective:** Install Docker and run your first container.
 
 **Tasks:**
 
 1. **Install Docker**
-   - Visit [Docker Desktop](https://www.docker.com/products/docker-desktop/) and download the appropriate version for your operating system
+   - *If you want to install on your host operating system*: Visit [Docker Desktop](https://www.docker.com/products/docker-desktop/) and download the appropriate version for your operating system.
+   - *Alternatively, you can install this on a virtual machine using that Virtual Machines native installation tooling*
    - Follow the installation instructions
    - Verify installation by running: `docker --version`
 
@@ -32,7 +38,10 @@ The following labs are designed to progressively build your Docker skills. Compl
 
 ---
 
-## Lab 2: Working with Images and Containers
+## Assignment 2: Working with Images and Containers
+
+**Assignment:**
+- Copy and paste your terminal window output into a text file called `docker-2.txt`
 
 **Objective:** Learn to pull images, run containers with various options, and manage container lifecycle.
 
@@ -62,7 +71,10 @@ The following labs are designed to progressively build your Docker skills. Compl
 
 ---
 
-## Lab 3: Building Your First Docker Image
+## Assignment 3: Building Your First Docker Image
+
+**Assignment:**
+- Submit a screenshot of your browser window on `https://localhost:3000` into a text file called `docker-3.png` or `docker-3.jpg`
 
 **Objective:** Create a custom Docker image using a Dockerfile.
 
@@ -111,7 +123,10 @@ The following labs are designed to progressively build your Docker skills. Compl
 
 ---
 
-## Lab 4: Multi-Container Application with Docker Compose
+## Assignment 4: Multi-Container Application with Docker Compose
+
+**Assignment:** 
+- Submit a screenshot of your browser window on `http://localhost:5000` into a text file called `docker-4.png` or `docker-4.jpg`
 
 **Objective:** Use Docker Compose to orchestrate multiple containers working together.
 
@@ -214,126 +229,12 @@ The following labs are designed to progressively build your Docker skills. Compl
 
 ---
 
-## Lab 5: Volumes and Data Persistence
+## Assignment 5: Security and Best Practices
 
-**Objective:** Understand how to persist data outside of containers.
-
-**Tasks:**
-
-1. **Observe Data Loss**
-   - Run a MySQL container: `docker run -d --name mysql-test -e MYSQL_ROOT_PASSWORD=password mysql:8`
-   - Connect to it: `docker exec -it mysql-test mysql -p`
-   - Create a database: `CREATE DATABASE testdb;`
-   - Exit and remove the container: `docker rm -f mysql-test`
-   - Run a new container with the same command
-   - Question: Is your database still there? Why or why not?
-
-2. **Use Named Volumes**
-   - Create a named volume: `docker volume create mysql-data`
-   - Run MySQL with the volume: `docker run -d --name mysql-persistent -v mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password mysql:8`
-   - Create a database again
-   - Remove the container and create a new one with the same volume
-   - Verify your database persisted
-
-3. **Use Bind Mounts**
-   - Create a local directory: `mkdir ~/my-web-content`
-   - Create an `index.html` in that directory with custom content
-   - Run NGINX with a bind mount: `docker run -d -p 8080:80 -v ~/my-web-content:/usr/share/nginx/html nginx`
-   - Modify `index.html` on your host machine
-   - Refresh your browser—changes appear immediately!
-
-4. **Volume Management**
-   - List all volumes: `docker volume ls`
-   - Inspect a volume: `docker volume inspect mysql-data`
-   - Remove unused volumes: `docker volume prune`
-
----
-
-## Lab 6: Docker Networking
-
-**Objective:** Understand how Docker containers communicate with each other.
-
-**Tasks:**
-
-1. **Explore Default Networks**
-   - List networks: `docker network ls`
-   - Inspect the bridge network: `docker network inspect bridge`
-
-2. **Create a Custom Network**
-   - Create a network: `docker network create my-app-network`
-   - Run two containers on this network:
-     ```bash
-     docker run -d --name web --network my-app-network nginx
-     docker run -d --name database --network my-app-network -e POSTGRES_PASSWORD=password postgres:15
-     ```
-   - Connect to the web container: `docker exec -it web bash`
-   - Install ping: `apt-get update && apt-get install -y iputils-ping`
-   - Ping the database by name: `ping database`
-   - Question: Why can you use the container name instead of an IP address?
-
-3. **Test Network Isolation**
-   - Create another network: `docker network create isolated-network`
-   - Run a container on the isolated network: `docker run -d --name isolated --network isolated-network alpine sleep 3600`
-   - Try to ping the database from the isolated container
-   - Question: What happens and why?
-
-4. **Connect Container to Multiple Networks**
-   - Connect the web container to the isolated network: `docker network connect isolated-network web`
-   - From the web container, ping the isolated container
-   - Observe the routing
-
----
-
-## Lab 7: Optimizing Docker Images
-
-**Objective:** Learn best practices for creating efficient, secure Docker images.
-
-**Tasks:**
-
-1. **Create a Baseline Image**
-   - Create a simple Python application that imports several libraries
-   - Write a Dockerfile using the standard `python:3.11` base image
-   - Build the image and note its size: `docker images`
-
-2. **Optimize with Alpine**
-   - Modify your Dockerfile to use `python:3.11-alpine`
-   - Rebuild and compare sizes
-   - Document the size difference
-
-3. **Multi-Stage Build**
-   - Create a Go application:
-     ```go
-     package main
-     import "fmt"
-     func main() {
-         fmt.Println("Hello from optimized container!")
-     }
-     ```
-   - Create a multi-stage Dockerfile:
-     ```dockerfile
-     # Build stage
-     FROM golang:1.21-alpine AS builder
-     WORKDIR /app
-     COPY main.go .
-     RUN go build -o myapp main.go
-
-     # Runtime stage
-     FROM alpine:latest
-     WORKDIR /app
-     COPY --from=builder /app/myapp .
-     CMD ["./myapp"]
-     ```
-   - Build and compare to a single-stage build
-
-4. **Layer Optimization**
-   - Create a Dockerfile with inefficient layers
-   - Rebuild with optimized layers (combine RUN commands, order by change frequency)
-   - Use `docker history <image>` to examine layers
-   - Compare build times when modifying code
-
----
-
-## Lab 8: Security and Best Practices
+**Assignment:** 
+- Task 1: Submit - Copy and paste your findings into a text file called `docker-5-1.txt`
+- Task 2: Submit - Dockerfile you created named `Dockerfile-5-2`
+- Task 3: Submit - Dockerfile you created named `Dockerfile-5-3` and a text file with the command you used to build the image as `docker-5-3.txt`
 
 **Objective:** Implement security best practices in Docker containers.
 
@@ -360,14 +261,8 @@ The following labs are designed to progressively build your Docker skills. Compl
      - Using smaller base image
      - Adding health check
 
-3. **Implement Resource Limits**
-   - Run a container with memory and CPU limits
-   - Use `docker stats` to verify limits are enforced
-   - Try to exceed limits and observe behavior
-
-4. **Secret Management**
+3. **Secret Management**
    - Demonstrate the WRONG way (hardcoded in Dockerfile)
    - Demonstrate the BETTER way (environment variables at runtime)
-   - Research and document BEST practices (Docker secrets, external vaults)
 
 ---
