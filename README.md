@@ -9,7 +9,7 @@ The application of information technologies presents many situations where syste
 | Date               | Topic                                                                                                  | Notes/Activities                                                                                      |
 |--------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | Feb 2              | [Shell/Bash Scripting](shell-scripting/README.md)                                                      | Introduction to shell scripting, basic commands, scripting exercises                                  |
-| Feb 9              | Docker: Build/Compile Code, Running Locally, Repositories                                              | Dockerfile basics, local containers, public/private registries                                        |
+| Feb 9              | [Docker: Build/Compile Code, Running Locally, Repositories](docker/README.md)                          | Dockerfile basics, local containers, public/private registries                                        |
 | Feb 16             | Cloud Computing Introduction                                                                           | Overview of cloud platforms (AWS focus), basic concepts                                               |
 | Feb 23             | Cloud Networking (VPCs, Subnets, Security Groups/ACLs)                                                 | AWS networking fundamentals, hands-on with VPC setup                                                  |
 | Mar 2              | Click Ops: Configure an AWS account to specifications                                                  | Manual AWS setup, IAM, resource provisioning                                                          |
@@ -30,9 +30,24 @@ The application of information technologies presents many situations where syste
 | Apr 2   | Easter Break Begins                |
 | Apr 7   | Classes Resume after Easter Break  |
 
-
 ## Assessment
-TBD
+
+| Grade Range      | Letter Grade |
+|------------------|-------------|
+| 90 – 100%        | A           |
+| 86 – <90%        | A-          |
+| 82 – <86%        | B+          |
+| 78 – <82%        | B           |
+| 74 – <78%        | B-          |
+| 70 – <74%        | C+          |
+| 66 – <70%        | C           |
+| 62 – <66%        | D+          |
+| 58 – <62%        | D           |
+| Less than 58%    | F           |
+
+Total: 100%
+
+
 
 ---
 
