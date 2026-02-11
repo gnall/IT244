@@ -8,7 +8,7 @@ The following Assignments are designed to progressively build your Docker skills
 
 ## Assignment 1: Installation and First Container
 
-**Assignment:**
+**Assignment Submission:**
 - Copy and paste your terminal window output into a text file called `docker-1.txt`
 
 **Objective:** Install Docker and run your first container.
@@ -40,7 +40,7 @@ The following Assignments are designed to progressively build your Docker skills
 
 ## Assignment 2: Working with Images and Containers
 
-**Assignment:**
+**Assignment Submission:**
 - Copy and paste your terminal window output into a text file called `docker-2.txt`
 
 **Objective:** Learn to pull images, run containers with various options, and manage container lifecycle.
@@ -73,7 +73,7 @@ The following Assignments are designed to progressively build your Docker skills
 
 ## Assignment 3: Building Your First Docker Image
 
-**Assignment:**
+**Assignment Submission:**
 - Submit a screenshot of your browser window on `https://localhost:3000` into a text file called `docker-3.png` or `docker-3.jpg`
 
 **Objective:** Create a custom Docker image using a Dockerfile.
@@ -125,7 +125,7 @@ The following Assignments are designed to progressively build your Docker skills
 
 ## Assignment 4: Multi-Container Application with Docker Compose
 
-**Assignment:** 
+**Assignment Submission:**
 - Submit a screenshot of your browser window on `http://localhost:5000` into a text file called `docker-4.png` or `docker-4.jpg`
 
 **Objective:** Use Docker Compose to orchestrate multiple containers working together.
@@ -231,7 +231,7 @@ The following Assignments are designed to progressively build your Docker skills
 
 ## Assignment 5: Security and Best Practices
 
-**Assignment:** 
+**Assignment Submission:**
 - Task 1: Submit - Copy and paste your findings into a text file called `docker-5-1.txt`
 - Task 2: Submit - Dockerfile you created named `Dockerfile-5-2`
 - Task 3: Submit - Dockerfile you created named `Dockerfile-5-3` and a text file with the command you used to build the image as `docker-5-3.txt`
