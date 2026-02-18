@@ -2,17 +2,54 @@
 
 These assignments are designed for first-time Git users. You will do all work in your **private GitLab repository** for IT 244.
 
-**Setup (do once):**
+## Setup: cloning your repository (SSH or HTTPS)
 
-1. Sign in at [https://gitlab.com/university-of-scranton](https://gitlab.com/university-of-scranton) with your University email.
-2. Open [https://gitlab.com/university-of-scranton/computing-sciences/courses/it-244/students/](https://gitlab.com/university-of-scranton/computing-sciences/courses/it-244/students/) and select **your name** to open your private project.
-3. Clone the repo to your machine (use the “Clone” button on the project page for the URL):
+To clone your course repository from GitLab, you can use either **SSH** or **HTTPS**. You only need one of the two.
+
+### Option 1: Clone with SSH
+
+If you want to clone (and push) using SSH, you may need to **generate an SSH key on your local machine** and add the public key to GitLab.
+
+1. **Generate an SSH key** (if you don’t already have one):
    ```bash
-   git clone <your-repo-url>
-   cd <repo-folder>
+   ssh-keygen -t ed25519 -C "your.university@scranton.edu"
+   ```
+   Press Enter to accept the default file location, and optionally set a passphrase.
+
+2. **Copy your public key** to the clipboard:
+   - **macOS:** `pbcopy < ~/.ssh/id_ed25519.pub`
+   - **Linux (X11):** `xclip -selection clipboard < ~/.ssh/id_ed25519.pub`
+   - **Windows (PowerShell):** `Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard`
+   - Or open `~/.ssh/id_ed25519.pub` in a text editor and copy its contents.
+
+3. **Add the key to GitLab:** Sign in at [gitlab.com/university-of-scranton](https://gitlab.com/university-of-scranton) → click your avatar (top right) → **Preferences** → **SSH Keys** (or go to [SSH Keys](https://gitlab.com/-/user_settings/ssh_keys)). Paste the key, give it a title (e.g., “My laptop”), and click **Add key**.
+
+4. **Clone using the SSH URL** from your project page (e.g. `git@gitlab.com:university-of-scranton/computing-sciences/courses/it-244/students/your-username/your-project.git`):
+   ```bash
+   git clone git@gitlab.com:university-of-scranton/.../your-project.git
    ```
 
-Submit your work by **pushing to the branch specified for each assignment**. Your instructor will check those branches.
+### Option 2: Clone with HTTPS and a personal access token
+
+If you prefer HTTPS, use a **personal access token (PAT)** instead of your password. GitLab recommends this for HTTPS clone and push.
+
+1. **Create a personal access token:** Sign in at [gitlab.com/university-of-scranton](https://gitlab.com/university-of-scranton) → click your avatar → **Preferences** → **Access Tokens** (or go to [Access Tokens](https://gitlab.com/-/user_settings/personal_access_tokens)). Create a token with a name (e.g., “IT244”), an expiration date if you want one, and scopes **read_repository** and **write_repository**. Click **Create personal access token**.
+
+2. **Copy the token** and store it somewhere safe; GitLab will not show it again.
+
+3. **Clone using the HTTPS URL** from your project page (e.g. `https://gitlab.com/university-of-scranton/.../your-project.git`):
+   ```bash
+   git clone https://gitlab.com/university-of-scranton/.../your-project.git
+   ```
+   When prompted for a password, **paste the personal access token** (not your GitLab account password).
+
+4. **Pushing:** When you `git push`, use the same token as the password when prompted. You can also save the token in your system’s credential helper so you don’t have to enter it every time.
+
+For your IT 244 assignments, you will use simple branches (e.g., one branch per assignment) and push them to your GitLab repo
+
+---
+
+Submit your work by **pushing to the branch specified for each assignment**. Make sure to confirm that you see the expected branches on the Gitlab side.
 
 ---
 
