@@ -12,21 +12,40 @@ The application of information technologies presents many situations where syste
 | Feb 9              | [Docker: Build/Compile Code, Running Locally, Repositories](docker/README.md)                          | Dockerfile basics, local containers, public/private registries                                        |
 | Feb 16             | [Git Version Control](git/README.md)                                                                   | Git basics, repositories, branching, collaboration                                                    |
 | Feb 23             | [Cloud Computing Introduction](cloud-computing-intro/README.md)                                        | Overview of cloud platforms (AWS focus), basic concepts                                               |
-| Mar 2              | Cloud Networking (VPCs, Subnets, Security Groups/ACLs)                                                 | AWS networking fundamentals, hands-on with VPC setup                                                  |
-| Mar 9              | Click Ops: Configure an AWS account to specifications                                                  | Manual AWS setup, IAM, resource provisioning                                                          |
-| Mar 16             | Virtual Machines: EC2, Bash Script Deployment                                                          | Launch EC2, automate software install with bash, intro to launch templates                            |
-| Mar 23             | CloudFormation Templates                                                                               | Infrastructure as Code: hardcoded templates to redeploy resources                                     |
-| Mar 30             | Terraform to Recreate CloudFormation Resources                                                         | Use Terraform to automate and manage infrastructure                                                   |
-| Apr 13             | CI/CD with GitLab/GitHub: Build, Secret Scan, Docker Build & Registry                                  | Automate builds, scan for secrets, push Docker images to registry                                     |
-| Apr 20             | CI/CD to Deploy CloudFormation and Terraform                                                           | Automate infrastructure deployment using CI/CD pipelines                                              |
+| Mar 2              | | |
+| Mar 9              | | |
+| Mar 16             | Spring Break | No Class |
+| Mar 23             | | |
+| Mar 30             | | |
+| Apr 6              | | |
+| Apr 13             | | |
+| Apr 20             | | |
+| Apr 27             | | |
+| May 4              | | |
+| May 11             | | |
+
+
+| Potential Topics                                                         | Notes/Activities                                                                                      |
+|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Cloud Networking (VPCs, Subnets, Security Groups/ACLs)                   | AWS networking fundamentals, hands-on with VPC setup                                                  |
+| Click Ops: Configure an AWS account to specifications                    | Manual AWS setup, IAM, resource provisioning                                                          |
+| Virtual Machines: EC2, Bash Script Deployment                            | Launch EC2, automate software install with bash, intro to launch templates                            |
+| CloudFormation Templates                                                 | Infrastructure as Code: hardcoded templates to redeploy resources                                     |
+| Terraform to Recreate CloudFormation Resources                           | Use Terraform to automate and manage infrastructure                                                   |
+| CI/CD with GitLab/GitHub: Build, Secret Scan, Docker Build & Registry    | Automate builds, scan for secrets, push Docker images to registry                                     |
+| CI/CD to Deploy CloudFormation and Terraform                             | Automate infrastructure deployment using CI/CD pipelines                                              |
+| CI/CD                                                                    | Automate Docker Container builds, scans                                                               |
+| Kubernetes                                                               | K8s Locally                                                                                           |
+
+---
 
 **Important Dates**
 [University 2025-2026 Calendar](https://www.scranton.edu/academics/registrar/pdf/2025-2026-academic-calendar-undergrad.pdf)
 
 | Date    | Event                              |
 |---------|------------------------------------|
+| Mar 14  | Spring Break Begins                |
 | Mar 23  | Classes Resume after Spring Break  |
-| Mar 30  | Spring Break Begins                |
 | Apr 2   | Easter Break Begins                |
 | Apr 7   | Classes Resume after Easter Break  |
 
