@@ -12,7 +12,7 @@ The application of information technologies presents many situations where syste
 | Feb 9              | [Docker: Build/Compile Code, Running Locally, Repositories](docker/README.md)                          | Dockerfile basics, local containers, public/private registries                                        |
 | Feb 16             | [Git Version Control](git/README.md)                                                                   | Git basics, repositories, branching, collaboration                                                    |
 | Feb 23             | [Cloud Computing Introduction](cloud-computing-intro/README.md)                                        | Overview of cloud platforms (AWS focus), basic concepts                                               |
-| Mar 2              | | |
+| Mar 2              | [CI/CD Pipelines](cicd/README.md) | Build a GitLab CI pipeline |
 | Mar 9              | | |
 | Mar 16             | Spring Break | No Class |
 | Mar 23             | | |
@@ -32,9 +32,7 @@ The application of information technologies presents many situations where syste
 | Virtual Machines: EC2, Bash Script Deployment                            | Launch EC2, automate software install with bash, intro to launch templates                            |
 | CloudFormation Templates                                                 | Infrastructure as Code: hardcoded templates to redeploy resources                                     |
 | Terraform to Recreate CloudFormation Resources                           | Use Terraform to automate and manage infrastructure                                                   |
-| CI/CD with GitLab/GitHub: Build, Secret Scan, Docker Build & Registry    | Automate builds, scan for secrets, push Docker images to registry                                     |
 | CI/CD to Deploy CloudFormation and Terraform                             | Automate infrastructure deployment using CI/CD pipelines                                              |
-| CI/CD                                                                    | Automate Docker Container builds, scans                                                               |
 | Kubernetes                                                               | K8s Locally                                                                                           |
 
 ---

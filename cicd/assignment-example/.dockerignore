@@ -1,0 +1,19 @@
+# Git
+.git
+.gitignore
+
+# IDE and build outputs
+target/
+*.iml
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+
+# CI config (not needed inside the image)
+.gitlab-ci.yml
+
+# Docs and local-only files
+README.md
+*.md
