@@ -13,27 +13,16 @@ The application of information technologies presents many situations where syste
 | Feb 16             | [Git Version Control](git/README.md)                                                                   | Git basics, repositories, branching, collaboration                                                    |
 | Feb 23             | [Cloud Computing Introduction](cloud-computing-intro/README.md)                                        | Overview of cloud platforms (AWS focus), basic concepts                                               |
 | Mar 2              | [CI/CD Pipelines](cicd/README.md) | Build a GitLab CI pipeline |
-| Mar 9              | | |
+| Mar 9              | [AWS Academy: Modules 1–4](aws-academy/module-1-4/README.md) | AWS Academy - cloud concepts, economics, global infrastructure, security |
 | Mar 16             | Spring Break | No Class |
-| Mar 23             | | |
-| Mar 30             | | |
-| Apr 6              | | |
-| Apr 13             | | |
-| Apr 20             | | |
-| Apr 27             | | |
-| May 4              | | |
-| May 11             | | |
-
-
-| Potential Topics                                                         | Notes/Activities                                                                                      |
-|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Cloud Networking (VPCs, Subnets, Security Groups/ACLs)                   | AWS networking fundamentals, hands-on with VPC setup                                                  |
-| Click Ops: Configure an AWS account to specifications                    | Manual AWS setup, IAM, resource provisioning                                                          |
-| Virtual Machines: EC2, Bash Script Deployment                            | Launch EC2, automate software install with bash, intro to launch templates                            |
-| CloudFormation Templates                                                 | Infrastructure as Code: hardcoded templates to redeploy resources                                     |
-| Terraform to Recreate CloudFormation Resources                           | Use Terraform to automate and manage infrastructure                                                   |
-| CI/CD to Deploy CloudFormation and Terraform                             | Automate infrastructure deployment using CI/CD pipelines                                              |
-| Kubernetes                                                               | K8s Locally                                                                                           |
+| Mar 23             | [AWS Academy: Modules 5–7](aws-academy/module-5-7/README.md) | AWS Academy — networking, compute, storage |
+| Mar 30             | [AWS Academy: Modules 8–10](aws-academy/module-8-10/README.md) | AWS Academy — databases, cloud architecture, scaling and monitoring |
+| Apr 6              | Ansible | Automation/local scripting |
+| Apr 13             | Intro to K8s | Introduction to K8s concepts |
+| Apr 20             | Minikube | Setup and basics |
+| Apr 27             | Helm | Installing Charts on Minikube |
+| May 4              | Terraform | Automate deploying to Minkube |
+| May 11             | - | - |
 
 ---
 
@@ -46,6 +35,7 @@ The application of information technologies presents many situations where syste
 | Mar 23  | Classes Resume after Spring Break  |
 | Apr 2   | Easter Break Begins                |
 | Apr 7   | Classes Resume after Easter Break  |
+| May 18  | Final Exams Begin                  |
 
 ## Assessment
 
