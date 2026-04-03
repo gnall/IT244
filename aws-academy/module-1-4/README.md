@@ -11,7 +11,7 @@ To satisfy this part of the course you must:
 1. **Pass the knowledge check** for each of Modules 1, 2, 3, and 4 with a **passing grade** (as defined in the AWS Academy course).
 2. **Complete the lab** (activity) for **Module 1**, **Module 2**, **Module 3**, and **Module 4** in the AWS Academy portal.
 
-Your instructor will verify completion via the AWS Academy course progress. If you are unsure what counts as passing or which lab to complete, check the course instructions in the portal or ask your instructor.
+I will verify completion via the AWS Academy course progress. If you are unsure what counts as passing or which lab to complete, check the course instructions in the portal or ask me.
 
 ---
 
