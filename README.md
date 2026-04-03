@@ -17,12 +17,12 @@ The application of information technologies presents many situations where syste
 | Mar 16             | Spring Break | No Class |
 | Mar 23             | [AWS Academy: Modules 5–7](aws-academy/module-5-7/README.md) | AWS Academy — networking, compute, storage |
 | Mar 30             | [AWS Academy: Modules 8–10](aws-academy/module-8-10/README.md) | AWS Academy — databases, cloud architecture, scaling and monitoring |
-| Apr 6              | Ansible | Automation/local scripting |
-| Apr 13             | Intro to K8s | Introduction to K8s concepts |
-| Apr 20             | Minikube | Setup and basics |
-| Apr 27             | Helm | Installing Charts on Minikube |
-| May 4              | Terraform | Automate deploying to Minkube |
-| May 11             | - | - |
+| Apr 6              | [Intro to K8s + Minikube](kubernetes-intro/README.md) | K8s concepts; local cluster setup and basics |
+| Apr 13             | Helm | Installing charts on Minikube |
+| Apr 20             | Ansible | Automation/local scripting |
+| Apr 27             | Terraform | Automate deploying to Minikube |
+| May 4              | APIs | - |
+| May 11             | Capstone | - |
 
 ---
 

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-config
+data:
+  MESSAGE: "Hello from Kubernetes"
+  TRAINING: "it244"
