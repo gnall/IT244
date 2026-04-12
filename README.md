@@ -18,7 +18,7 @@ The application of information technologies presents many situations where syste
 | Mar 23             | [AWS Academy: Modules 5–7](aws-academy/module-5-7/README.md) | AWS Academy — networking, compute, storage |
 | Mar 30             | [AWS Academy: Modules 8–10](aws-academy/module-8-10/README.md) | AWS Academy — databases, cloud architecture, scaling and monitoring |
 | Apr 6              | [Intro to K8s + Minikube](kubernetes-intro/README.md) | K8s concepts; local cluster setup and basics |
-| Apr 13             | Helm | Installing charts on Minikube |
+| Apr 13             | [Helm](helm/README.md) | Charts, releases, repos; install and upgrade on Minikube |
 | Apr 20             | Ansible | Automation/local scripting |
 | Apr 27             | Terraform | Automate deploying to Minikube |
 | May 4              | APIs | - |

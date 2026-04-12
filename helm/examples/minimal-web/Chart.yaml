@@ -1,0 +1,6 @@
+apiVersion: v2
+name: minimal-web
+description: Minimal nginx chart for IT 244 Helm exercises
+type: application
+version: 0.1.0
+appVersion: "1.25"
