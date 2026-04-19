@@ -19,10 +19,10 @@ The application of information technologies presents many situations where syste
 | Mar 30             | [AWS Academy: Modules 8–10](aws-academy/module-8-10/README.md) | AWS Academy — databases, cloud architecture, scaling and monitoring |
 | Apr 6              | [Intro to K8s + Minikube](kubernetes-intro/README.md) | K8s concepts; local cluster setup and basics |
 | Apr 13             | [Helm](helm/README.md) | Charts, releases, repos; install and upgrade on Minikube |
-| Apr 20             | Ansible | Automation/local scripting |
+| Apr 20             | [APIs (Java)](apis/README.md) | What APIs are; build a local REST API with read/write + transformations |
 | Apr 27             | Terraform | Automate deploying to Minikube |
-| May 4              | APIs | - |
-| May 11             | Capstone | - |
+| May 4              | Capstone Part 1 | - |
+| May 11             | Capstone Part 2 | - |
 
 ---
 
