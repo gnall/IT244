@@ -20,7 +20,7 @@ The application of information technologies presents many situations where syste
 | Apr 6              | [Intro to K8s + Minikube](kubernetes-intro/README.md) | K8s concepts; local cluster setup and basics |
 | Apr 13             | [Helm](helm/README.md) | Charts, releases, repos; install and upgrade on Minikube |
 | Apr 20             | [APIs (Java)](apis/README.md) | What APIs are; build a local REST API with read/write + transformations |
-| Apr 27             | Terraform | Automate deploying to Minikube |
+| Apr 27             | [Terraform](terraform/README.md) | [Progressive assignment](terraform/assignments.md); submit to GitLab **`terraform-assignment`** |
 | May 4              | Capstone Part 1 | - |
 | May 11             | Capstone Part 2 | - |
 

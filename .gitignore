@@ -1,5 +1,7 @@
 # Instructor / reference solutions (keep locally; do not commit)
 apis/examples/solution/
+terraform/examples/solution/
 
 # Maven build output
 apis/examples/**/target/
+.DS_Store
