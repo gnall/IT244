@@ -4,4 +4,10 @@ terraform/examples/solution/
 
 # Maven build output
 apis/examples/**/target/
+
+# Maven build output (capstone + any future Maven projects)
+**/target/
+
+# Local Maven repository/cache (sometimes used in teaching environments)
+**/.m2/
 .DS_Store
